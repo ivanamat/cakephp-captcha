@@ -22,6 +22,14 @@ git submodule update
 
 Get reCAPTCHA **secret** at https://www.google.com/recaptcha
 
+## Configure
+
+Set the secret in your `config/bootstrap.php` file.  
+
+```
+    Configure::write('Captcha.secret','MY_SECRET_KEY');
+```
+
 ## Load Component
 
 Load component in the `initialize()` function
@@ -52,14 +60,6 @@ Load component in the `initialize()` function
     }
 ```
 
-## Configure
-
-Set the secret in your `config/bootstrap.php` file.  
-
-```
-    Configure::write('Captcha.secret','MY_SECRET_KEY');
-```
-
 ## Easy to use
 
 ```php
@@ -77,10 +77,22 @@ Set the secret in your `config/bootstrap.php` file.
     }
 ```
 
+Paste this snippet before the closing tag `</head>` in the HTML template
+```html
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+```
+
+Paste this snippet at the end of the `<form>` where you want the reCAPTCHA widget to appear. Replace `YOUR-SITEKEY` with your own site key.  
+```html
+    <div class="g-recaptcha" data-sitekey="YOUR-SITEKEY"></div>
+```
+
 ## About CakePHP 3.x - reCAPTCHA
 
 CakePHP 3.x - Captcha uses the [reCAPTCHA](https://github.com/google/recaptcha) third-party library.  
 You can download [reCAPTCHA](https://github.com/google/recaptcha) from official website: [https://github.com/google/recaptcha).
+
+[Google reCAPTCHA](https://developers.google.com/recaptcha)
 
 
 ## Author
