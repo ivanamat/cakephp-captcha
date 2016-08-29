@@ -13,11 +13,14 @@ composer require ivanamat/cakephp3-captcha
 ```
 
 ### Git submodule
+```
+git submodule add git@github.com:ivanamat/cakephp3-captcha.git plugins/Captcha
+git submodule init
+git submodule update
+```
+## Getting started
 
-    git submodule add git@github.com:ivanamat/cakephp3-markdown.git plugins/Captcha
-    git submodule init
-    git submodule update
-
+Get reCAPTCHA **secret** at https://www.google.com/recaptcha
 
 ## Load Component
 
@@ -52,13 +55,12 @@ Load component in the `initialize()` function
 ## Configure
 
 Set the secret in your `config/bootstrap.php` file.  
-**Read first:** https://www.google.com/recaptcha
 
+```
     Configure::write('Captcha.secret','MY_SECRET_KEY');
+```
 
 ## Easy to use
-
-**Read first:** https://www.google.com/recaptcha
 
 ```php
     # MyController
