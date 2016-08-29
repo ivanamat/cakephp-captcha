@@ -21,7 +21,7 @@
             "Captcha\\": "src"
         },
         "classmap": [
-            "Lib/Recaptcha"
+            "Lib/ReCaptcha"
         ]
     }
 }
