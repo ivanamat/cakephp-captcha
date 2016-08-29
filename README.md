@@ -62,6 +62,7 @@ Load component in the `initialize()` function
 
 ## Easy to use
 
+### Controller
 ```php
     # MyController
 
@@ -77,6 +78,7 @@ Load component in the `initialize()` function
     }
 ```
 
+### HTML
 Paste this snippet before the closing tag `</head>` in the HTML template
 ```html
     <script src='https://www.google.com/recaptcha/api.js'></script>
