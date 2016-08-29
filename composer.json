@@ -1,6 +1,6 @@
 {
     "name": "ivanamat/cakephp3-captcha",
-    "description": "CakePHP 3.x reCAPTCHA plugin",
+    "description": "CakePHP 3.x - reCAPTCHA plugin",
     "keywords": ["cakephp", "cakephp3", "cake3", "plugin", "captcha", "recaptcha","google"],
     "homepage": "https://github.com/ivanamat/cakephp3-captcha",
     "type": "cakephp-plugin",
