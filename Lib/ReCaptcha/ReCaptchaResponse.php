@@ -30,7 +30,7 @@
  * THE SOFTWARE.
  */
 
-namespace Captcha\Recaptcha;
+namespace Captcha\ReCaptcha;
 
 /**
  * A ReCaptchaResponse is returned from checkAnswer().

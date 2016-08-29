@@ -10,7 +10,7 @@ namespace Captcha\Controller\Component;
 
 use Cake\Controller\Component;
 use Cake\Core\Configure;
-use Captcha\Recaptcha\ReCaptcha;
+use Captcha\ReCaptcha\ReCaptcha;
 
 /**
  * CakePHP CaptchaComponent

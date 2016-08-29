@@ -30,9 +30,9 @@
  * THE SOFTWARE.
  */
 
-namespace Captcha\Recaptcha;
+namespace Captcha\ReCaptcha;
 
-use Captcha\Recaptcha\ReCaptchaResponse;
+use Captcha\ReCaptcha\ReCaptchaResponse;
 
 class ReCaptcha
 {
