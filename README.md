@@ -92,7 +92,7 @@ Paste this snippet at the end of the `<form>` where you want the reCAPTCHA widge
 ## About CakePHP 3.x - reCAPTCHA
 
 CakePHP 3.x - Captcha uses the [reCAPTCHA](https://github.com/google/recaptcha) third-party library.  
-You can download [reCAPTCHA](https://github.com/google/recaptcha) from official website: [https://github.com/google/recaptcha)
+You can download [reCAPTCHA](https://github.com/google/recaptcha) from official website: [https://github.com/google/recaptcha).
 
 [Google reCAPTCHA](https://developers.google.com/recaptcha)
 
