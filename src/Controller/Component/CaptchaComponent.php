@@ -26,13 +26,13 @@ class CaptchaComponent extends Component {
     /**
      * Initialize the component
      */
-    public function initialize(array $config) {
+    public function initialize(array $config): void{
         parent::initialize($config);
         
         $this->secret = Configure::read('Captcha.secret');
         $this->ReCaptcha = new ReCaptcha($this->secret);
         
-        return null;
+        //return null;
     }
     
     /**
