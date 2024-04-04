@@ -1,4 +1,4 @@
-# CakePHP 3.x - reCAPTCHA
+# CakePHP 4.x - reCAPTCHA
 
 ## Installation
 
@@ -89,9 +89,9 @@ Paste this snippet at the end of the `<form>` where you want the reCAPTCHA widge
     <div class="g-recaptcha" data-sitekey="YOUR-SITEKEY"></div>
 ```
 
-## About CakePHP 3.x - reCAPTCHA
+## About CakePHP 4.x - reCAPTCHA
 
-CakePHP 3.x - Captcha uses the [reCAPTCHA](https://github.com/google/recaptcha) third-party library.  
+CakePHP 4.x - Captcha uses the [reCAPTCHA](https://github.com/google/recaptcha) third-party library.  
 You can download [reCAPTCHA](https://github.com/google/recaptcha) from official website: [https://github.com/google/recaptcha)
 
 [Google reCAPTCHA](https://developers.google.com/recaptcha)
@@ -101,3 +101,6 @@ You can download [reCAPTCHA](https://github.com/google/recaptcha) from official 
 
 Iván Amat on [GitHub](https://github.com/ivanamat)  
 [www.ivanamat.es](http://www.ivanamat.es/)
+
+## Contributors
+[BusaniPrepaid](https://github.com/BusaniPrepaid)
