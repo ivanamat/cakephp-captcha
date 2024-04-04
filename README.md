@@ -96,11 +96,6 @@ You can download [reCAPTCHA](https://github.com/google/recaptcha) from official 
 
 [Google reCAPTCHA](https://developers.google.com/recaptcha)
 
-
-## Author
-
-Iván Amat on [GitHub](https://github.com/ivanamat)  
-[www.ivanamat.es](http://www.ivanamat.es/)
-
 ## Contributors
-[BusaniPrepaid](https://github.com/BusaniPrepaid)
+Iván Amat on [GitHub](https://github.com/ivanamat) and [www.ivanamat.es](http://www.ivanamat.es/)  
+BusaniPrepaid on [GitHub](https://github.com/BusaniPrepaid)
