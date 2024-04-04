@@ -9,12 +9,12 @@ You can install this plugin into your CakePHP application using [composer](http:
 The recommended way to install composer packages is:
 
 ```
-composer require ivanamat/cakephp3-captcha
+composer require ivanamat/cakephp-captcha
 ```
 
 ### Git submodule
 ```
-git submodule add git@github.com:ivanamat/cakephp3-captcha.git plugins/Captcha
+git submodule add git@github.com:ivanamat/cakephp-captcha.git plugins/Captcha
 git submodule init
 git submodule update
 ```
