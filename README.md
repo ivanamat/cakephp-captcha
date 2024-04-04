@@ -1,4 +1,4 @@
-# CakePHP 4.x - reCAPTCHA
+# CakePHP 4.5.x - reCAPTCHA
 
 ## Installation
 
